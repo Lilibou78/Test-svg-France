@@ -1,0 +1,90 @@
+
+
+body{
+	margin: 0;
+}
+
+.map{
+	display: flex;
+	justify-content: flex-warp;
+	height: 60vm;
+}
+
+
+/* Nav bar */
+.Nav-Bar{
+	display: flex;
+	height: 100px;
+	background-color: #2E4172;
+	align-items: center;
+
+}
+
+.Nav-bar-list{
+	display: flex;
+	list-style: none;
+}
+
+.Nav-bar-list li{
+	margin: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+#left{
+	justify-content: flex-end;
+}
+
+/* Carte Frnace */
+
+.map__france{
+	width: 50%;
+	float: left;
+}
+
+.map__france path{		
+	fill: #a4ced2;
+	fill-opacity: 1;			
+	stroke:white;
+	stroke-opacity: 1;
+	stroke-width:1px;
+	transition: fill 0.3s;
+}
+.map__france .is-active path{		
+	fill: #2E4172;
+	
+}
+
+
+/* Liste des Régions */
+.list-ul-region{
+		list-style: none;
+}
+
+.list__region{
+	float: right;
+	width: 50%;
+}
+
+.list__region a{
+	text-decoration: none;
+	color: inherit; /*prend la couleur du parent*/
+	transition: color 0.3s;
+}
+
+
+/* font pour Texte et titre */
+
+.list__region .is-active a{
+	color : #2E4172;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+/* footer  */
+
+
+footer{
+	display: flex;
+}
