@@ -30,9 +30,7 @@ body{
 	color: white;
 	text-transform: uppercase;
 }
-#left{
-	justify-content: flex-end;
-}
+
 
 /* Carte Frnace */
 
@@ -65,20 +63,20 @@ body{
 	width: 50%;
 }
 
-.list__region a{
+.list-ul-region a{
 	text-decoration: none;
 	color: inherit; /*prend la couleur du parent*/
 	transition: color 0.3s;
 }
 
 
-/* font pour Texte et titre */
-
-.list__region .is-active a{
+.list__region a.is-active {
 	color : #2E4172;
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+/* font pour Texte et titre */
 
 
 
